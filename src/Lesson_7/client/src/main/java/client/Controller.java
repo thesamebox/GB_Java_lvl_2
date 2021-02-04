@@ -1,4 +1,4 @@
-package client;
+package Lesson_7.client.src.main.java.client;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;

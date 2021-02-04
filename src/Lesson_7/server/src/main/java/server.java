@@ -1,3 +1,5 @@
+package Lesson_7.server.src.main.java;
+
 import org.w3c.dom.ls.LSOutput;
 
 import java.io.DataInputStream;
