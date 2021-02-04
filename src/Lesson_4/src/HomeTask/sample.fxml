@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="HomeTask.Controller">
+    <stylesheets>
+        <URL value="@/CSS/style.css" />
+    </stylesheets>
+
+    <Button fx:id="buttonAvatar"
+            text="interlocutor's info"
+            prefHeight="60"
+            prefWidth="60"
+            AnchorPane.leftAnchor="0.0"
+            AnchorPane.rightAnchor="60.0"/>
+
+    <Button fx:id="buttonBio"
+            text="Drunk Cat"
+            prefHeight="60"
+            prefWidth="-Infinity"
+            AnchorPane.leftAnchor="60.0"
+            AnchorPane.rightAnchor="60.0"/>
+
+    <Button fx:id="ButtonSettings"
+            text=" "
+            AnchorPane.rightAnchor="0.0"
+            prefHeight="60"
+            prefWidth="60"/>
+
+    <TextArea fx:id="textArea"
+              AnchorPane.topAnchor="60.0"
+              AnchorPane.bottomAnchor="60.0"
+              AnchorPane.leftAnchor="0.0"
+              AnchorPane.rightAnchor="0.0"/>
+
+    <TextField fx:id="textField"
+               onAction="#pressEnterToSend"
+               promptText="Input your message"
+               prefHeight="60"
+               AnchorPane.bottomAnchor="0.0"
+               AnchorPane.leftAnchor="0.0"
+               AnchorPane.rightAnchor="50.0"/>
+
+    <Button fx:id="ButtonSend"
+            text=" "
+            onAction="#clickBtnSend"
+            prefHeight="60"
+            prefWidth="60"
+            AnchorPane.bottomAnchor="0.0"
+            AnchorPane.rightAnchor="0.0"/>
+
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vBox" alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="sample_2.Controller">
+    <stylesheets>
+        <URL value="@/CSS/style.css" />
+    </stylesheets>
+
+    <Button fx:id="addBtn" onAction="#clickAddBtn" text="add a button" />
+   <BorderPane prefHeight="200.0" prefWidth="200.0">
+      <bottom>
+         <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="110.0" text="Button" BorderPane.alignment="CENTER" />
+      </bottom>
+   </BorderPane>
+   <SplitPane prefHeight="200.0" prefWidth="200.0" />
+
+
+</VBox>
